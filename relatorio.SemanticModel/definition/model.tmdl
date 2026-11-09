@@ -25,7 +25,7 @@ queryGroup Funções
 
 annotation __PBI_TimeIntelligenceEnabled = 0
 
-annotation PBI_QueryOrder = ["base_transacoes","data_inicial","data_final","moedas","calendario","transacoes","getCotacoes","cotacoes"]
+annotation PBI_QueryOrder = ["base_transacoes","data_inicial","data_final","moedas","calendario","transacoes","getCotacoes","cotacoes","Medidas"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
@@ -33,6 +33,7 @@ ref table moedas
 ref table calendario
 ref table transacoes
 ref table cotacoes
+ref table Medidas
 
 ref cultureInfo pt-BR
 
